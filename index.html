@@ -5,28 +5,152 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <!-- css link here -->
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
 <!-- header div -->
     <div id="header">
         <nav class="navbar">
             <div class="navbar-nav">
-              <a class="navbar-title" href="#"> Shop Tycoon
-              </a>
+              <h1 class="navbar-title" href="#">Shop Tycoon</h1>
             </div>
           </nav>
     </div>
+
 <!-- body div -->
     <div id="body">
-        <div class=" " id="card container">
-            
+        <!-- flex container for cards -->
+        <section class="container">
+
+            <!-- Card # 1-->
+            <div class="card">
+                    <div class="card-img">
+                        <img class="img1" src="images/Dell XPS.jpg">
+                    </div>
+                <h5>Dell XPS 13</h5>
+               <p>$1,598</p>
+                    <form>
+                        <input type="text" id="price" name="price">
+                    </form>
+                    <div class="buttcon">
+                        <button> Add to cart </button>
+                    </div>
+            </div>
+
+            <!-- Card # 2-->
+            <div class="card">
+                    <div class="card-img img2">
+                        <img class="img2" src="images/MS Surface.jpg">
+                    </div>
+               <h5>Microsoft Surface Go</h5>
+               <p>$668</p>
+                    <form>
+                        <input type="text" id="price" name="price">
+                    </form>
+                    <div class="buttcon">
+                        <button> Add to cart </button>
+                    </div>
+            </div>
+
+            <!-- Card # 3-->
+            <div class="card">
+                    <div class="card-img img3">
+                        <img class="img3" src="images/HP Chromebook.jpg">
+                    </div>
+               <h5>HP Chromebook 14</h5>
+               <p>$399</p>
+                    <form>
+                        <input type="text" id="price" name="price">
+                </form>
+                <div class="buttcon">
+                    <button> Add to cart </button>
+                </div>
+            </div>
+
+            <!-- Card # 4-->
+            <div class="card">
+                <div class="card-img">
+                    <img class="img1" src="images/Google Pixel.jpg">
+                </div>
+            <h5>Google Pixel 4a</h5>
+           <p>$350</p>
+                <form>
+                    <input type="text" id="price" name="price">
+                </form>
+                <div class="buttcon">
+                    <button> Add to cart </button>
+                </div>
+        </div>
+
+            <!-- Card # 5-->
+        <div class="card">
+                <div class="card-img img2">
+                    <img class="img2" src="images/Samsung Galaxy.jpg">
+                </div>
+           <h5>Samsung Galaxy A52</h5>
+           <p>$549</p>
+                <form>
+                    <input type="text" id="price" name="price">
+                </form>
+                <div class="buttcon">
+                    <button> Add to cart </button>
+                </div>
+        </div>
+
+            <!-- Card # 6-->
+        <div class="card">
+                <div class="card-img img3">
+                    <img class="img3" src="images/One Plus 9.jpg">
+                </div>
+           <h5>One Plus 9</h5>
+           <p>$969.99</p>
+                <form>
+                    <input type="text" id="price" name="price">
+            </form>
+            <div class="buttcon">
+                <button> Add to cart </button>
+            </div>
+        </div>
+           </section>
+
+           <!-- shopping cart total form -->
+           <div class='result-form'>
+           <table>
+            <thead>
+              <tr>
+                <th>Item Name</th>
+                <th>Quantity</th>
+                <th>Price</th>
+                <th>Total</th>
+                <th>Action</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Selected items go here</td>
+                <td>item Quantity shown here</td>
+                <td>item Price here</td>
+               	<td>item Total here</td>
+               	<td>Remove action here</td>
+              </tr>
+            </tbody>
+            <tfoot>
+              <tr>
+                <td colspan="3">Total</td>
+                <td>$___</td>
+                <td> </td>
+              </tr>
+            </tfoot>
+          </table>
         </div>
     </div>
 
-    <!-- footer div -->
-    <div id="Footer-container">
-        <footer class="footer"></footer>
-    </div>
+<!-- footer div -->
+
+<div id="Footer-container">
+    <footer class="footer"></footer>
+</div>
 
 <!-- links to js -->
 <script src="index.js"></script>
